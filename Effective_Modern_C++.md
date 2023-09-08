@@ -786,7 +786,7 @@ public:
 	
 	Person(const Person& rhs); // 编译器生成
 	Person(Person&& rhs); // 编译器生成
-private：
+private:
 	std::string name;
 }
 
